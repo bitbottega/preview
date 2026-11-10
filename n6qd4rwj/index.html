@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ristorante Pizzeria Noè — Cucina senza glutine a Torino</title>
+<style>
+  * { margin:0; padding:0; box-sizing:border-box; }
+  body { font-family:'Segoe UI', Arial, sans-serif; background:#fdfbf7; color:#33302a; }
+  .wrap { max-width:480px; margin:0 auto; }
+  .draft { background:#5a7d4f; color:#fff; text-align:center; font-size:11px; font-weight:700; letter-spacing:1px; padding:7px 10px; }
+  .hero { position:relative; height:400px; background:url('hero.jpg') center/cover no-repeat; display:flex; align-items:flex-end; }
+  .hero:before { content:""; position:absolute; inset:0; background:linear-gradient(180deg,rgba(20,25,15,.35) 0%,rgba(20,25,15,.1) 40%,rgba(20,25,15,.88) 100%); }
+  .hero-inner { position:relative; padding:26px 24px; width:100%; }
+  .gf { display:inline-block; background:#5a7d4f; color:#fff; font-size:11px; font-weight:700; letter-spacing:2px; padding:7px 16px; border-radius:20px; margin-bottom:12px; }
+  h1 { font-size:38px; font-weight:800; color:#fff; line-height:1.1; }
+  h1 span { color:#b7d69b; }
+  .sub { color:#e9efe2; margin-top:8px; font-size:15px; }
+  .cta { display:block; background:#c0392b; color:#fff; text-align:center; font-weight:700; font-size:17px; padding:16px; border-radius:12px; margin:24px 24px 0; text-decoration:none; }
+  .cta2 { display:block; border:2px solid #5a7d4f; color:#5a7d4f; text-align:center; font-weight:700; font-size:15px; padding:13px; border-radius:12px; margin:12px 24px 0; text-decoration:none; }
+  section { padding:36px 24px; }
+  h2 { font-size:13px; letter-spacing:3px; color:#5a7d4f; margin-bottom:18px; text-transform:uppercase; text-align:center; }
+  .safe { background:#eef4e8; border-radius:14px; padding:20px; font-size:15px; line-height:1.7; }
+  .safe b { color:#3f5c37; }
+  .cat { font-size:12px; letter-spacing:2px; color:#b0855b; text-transform:uppercase; margin:22px 0 10px; font-weight:700; }
+  .dish { display:flex; justify-content:space-between; padding:10px 0; border-bottom:1px dashed #ddd5c7; font-size:15px; }
+  .dish .p { color:#5a7d4f; font-weight:700; white-space:nowrap; }
+  .dish small { display:block; color:#999; font-size:12px; margin-top:2px; }
+  .note { color:#999; font-size:12px; margin-top:14px; text-align:center; }
+  .info { text-align:center; font-size:15px; line-height:2; }
+  .info a { color:#5a7d4f; text-decoration:none; font-weight:600; }
+  footer { text-align:center; padding:26px 24px 40px; color:#999; font-size:12px; border-top:1px solid #eee6d8; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="draft">BOZZA GRATUITA PREPARATA DA BIT BOTTEGA · NON ANCORA PUBBLICATA</div>
+  <div class="hero">
+    <div class="hero-inner">
+      <div class="gf">100% SENZA GLUTINE</div>
+      <h1>Ristorante<br>Pizzeria <span>Noè</span></h1>
+      <p class="sub">La pizza che amavi. Anche se sei celiaco.</p>
+    </div>
+  </div>
+
+  <a class="cta" href="tel:+390113174520">Chiama e prenota · 011 317 4520</a>
+  <a class="cta2" href="https://www.google.com/maps/search/?api=1&query=Ristorante+Pizzeria+No%C3%A8+Via+Guala+120+Torino">Come raggiungerci</a>
+
+  <section>
+    <h2>Mangiare sereni</h2>
+    <div class="safe">Tutto il nostro menu è <b>senza glutine</b>: pizze, primi, secondi e dolci. Una cucina dedicata e attenta alle contaminazioni, per far sedere tutti allo stesso tavolo — <b>senza rinunce e senza pensieri</b>.</div>
+  </section>
+
+  <section style="background:#f7f2e8;">
+    <h2>Il menu</h2>
+    <div class="cat">Pizze</div>
+    <div class="dish"><div>Margherita<small>pomodoro, fior di latte, basilico</small></div><div class="p">7€*</div></div>
+    <div class="dish"><div>Diavola<small>salame piccante</small></div><div class="p">9€*</div></div>
+    <div class="dish"><div>Quattro stagioni</div><div class="p">10€*</div></div>
+    <div class="cat">Cucina</div>
+    <div class="dish"><div>Primi della tradizione<small>chiedi il piatto del giorno</small></div><div class="p">9€*</div></div>
+    <div class="dish"><div>Dolci fatti in casa<small>tutti senza glutine</small></div><div class="p">5€*</div></div>
+    <p class="note">*Menu e prezzi indicativi, in attesa di conferma dal ristorante.</p>
+  </section>
+
+  <section>
+    <h2>Dove siamo</h2>
+    <div class="info">
+      Via Pietro Francesco Guala 120, Torino<br>
+      (zona Santa Rita / Mirafiori Nord)<br><br>
+      Prenotazioni: <a href="tel:+390113174520">011 317 4520</a><br>
+      <small style="color:#999;">Orari da confermare con il ristorante</small>
+    </div>
+  </section>
+
+  <footer>
+    Ristorante Pizzeria Noè · Via P.F. Guala 120, Torino<br><br>
+    Sito realizzato da Bit Bottega — studio digitale, Torino<br>
+    <span style="color:#bbb;">Foto di repertorio (Wikimedia Commons, CC) — saranno sostituite dalle foto dei piatti.</span>
+  </footer>
+</div>
+</body>
+</html>
